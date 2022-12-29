@@ -8,6 +8,7 @@ const routes: Routes = [
   {path:'', component:IndexComponent, canActivate:[GuardGuard]},
   {path:'login', component:LoginComponent},
 
+  //
 ];
 
 @NgModule({
